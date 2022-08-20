@@ -1,0 +1,21 @@
+.account-name {
+    @include defaultPadding;
+}
+
+.account-avatar {
+    width: 100%;
+    height: 10rem;
+    border-radius: 5px;
+}
+
+.account-container {
+    text-align: center;
+    width: 10rem;
+    @include defaultPadding;
+    color: $clickable;
+
+    &:hover {
+        color: $clickableOnhover;
+    }
+}
+  
